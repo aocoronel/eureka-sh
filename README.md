@@ -64,7 +64,7 @@ Available options:
 Make sure to add the script to your `$PATH` for convenience.
 
 ```
-git clone https://github.com/janpstrunn/eureka-sh
+git clone https://github.com/anstrinn/eureka-sh
 cd eureka-sh
 chmod +x eureka.sh
 ```
