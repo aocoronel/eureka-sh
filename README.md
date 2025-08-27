@@ -1,12 +1,12 @@
-# eureka-sh
+# Quickly store your ideas
 
-`eureka.sh` is a fork of [eureka](https://github.com/simeg/eureka) by Simon Egersand written in shell, and with additional features.
+`eureka` is serves the same functionality as [eureka](https://github.com/simeg/eureka) written by Simon Egersand. `eureka` is written in shell, and with additional features.
 
 It's a CLI tool that tries to make the experience of jotting ideas down as friction-less as possible right from the terminal. It mainly integrates with git, committing and pushing ideas to a remote git repository.
 
 ## Requirements
 
-- Git is required in order to use `eureka.sh`
+- Git is required in order to use `eureka`
 - A remote git repository (optional)
 
 ## Features
@@ -26,8 +26,8 @@ It's a CLI tool that tries to make the experience of jotting ideas down as frict
 
 ## Usage
 
-The first time you use `eureka.sh` it's required to use the `-s` option to setup the configuration. The configuration file lives at `$HOME/.local/share/eureka.conf` by default.
-After setting the configuration. At least one argument is required in order to use `eureka.sh`.
+The first time you use `eureka` it's required to use the `-s` option to setup the configuration. The configuration file lives at `$HOME/.local/share/eureka.conf` by default.
+After setting the configuration. At least one argument is required in order to use `eureka`.
 
 You may combine arguments with the `-p` for managing a private repository (do not pull changes).
 
@@ -48,9 +48,9 @@ Available options:
 
 **Examples:**
 
-1. `eureka.sh -p -s` to set up the private repository configuration.
-2. `eureka.sh -p -t [filename] -e` to create or edit a file in the private repository. The file name is optional, as it will display the available files and request you enter one.
-3. `eureka.sh -a` to quickly add a new idea to your remote repository without an editor.
+1. `eureka -p -s` to set up the private repository configuration.
+2. `eureka -p -t [filename] -e` to create or edit a file in the private repository. The file name is optional, as it will display the available files and request you enter one.
+3. `eureka -a` to quickly add a new idea to your remote repository without an editor.
 
 **Important:**
 
@@ -66,10 +66,10 @@ Make sure to add the script to your `$PATH` for convenience.
 ```
 git clone https://github.com/aocoronel/eureka-sh
 cd eureka-sh
-chmod +x eureka.sh
+chmod +x eureka-sh
 ```
 
-Tip: Set an alias for `eureka.sh`
+Tip: Set an alias for `eureka`
 
 ## Notes
 
