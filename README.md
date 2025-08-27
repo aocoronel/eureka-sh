@@ -65,11 +65,11 @@ Make sure to add the script to your `$PATH` for convenience.
 
 ```
 git clone https://github.com/aocoronel/eureka-sh
-cd eureka-sh
-chmod +x eureka-sh
+chmod +x eureka-sh/src/eureka
+mv eureka-sh/src/eureka ~/.local/bin
 ```
 
-Tip: Set an alias for `eureka`
+**Tip:** Set an alias for `eureka`
 
 ## Notes
 
